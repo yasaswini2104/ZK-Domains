@@ -1,0 +1,32 @@
+{
+  "name": "dns",
+  "version": "1.0.0",
+  "description": "Privacy-preserving decentralized domain name system using Zero-Knowledge Proofs",
+  "main": "index.js",
+  "keywords": [
+    "blockchain",
+    "zero-knowledge",
+    "zk-snark",
+    "domain",
+    "nft",
+    "privacy",
+    "ethereum"
+  ],
+  "author": "Yasaswini Gaddam",
+  "license": "ISC",
+  "scripts": {
+    "contracts:compile": "pnpm --filter @zk-domains/contracts compile",
+    "contracts:test": "pnpm --filter @zk-domains/contracts test",
+    "contracts:deploy": "pnpm --filter @zk-domains/contracts deploy",
+    "circuits:compile": "pnpm --filter @zk-domains/circuits compile",
+    "circuits:setup": "pnpm --filter @zk-domains/circuits setup",
+    "dapp:dev": "pnpm --filter @zk-domains/dapp dev",
+    "dapp:build": "pnpm --filter @zk-domains/dapp build",
+    "clean": "pnpm -r clean && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@10.18.3"
+}

@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+out/
+*.log
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Circom
+packages/circuits/*.r1cs
+packages/circuits/*.wasm
+packages/circuits/*.sym
+packages/circuits/*.json
+packages/circuits/powersOfTau28_hez_final_*.ptau
+packages/circuits/proof.json
+packages/circuits/public.json
+packages/circuits/verification_key.json
+packages/circuits/circuit_*
+
+# Next.js
+.next/
+.turbo/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel
+
+# Temporary files
+*.tmp
+tmp/
+temp/
