@@ -3,6 +3,8 @@ import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-verify";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
+import "@nomicfoundation/hardhat-ethers";
+import "@nomicfoundation/hardhat-network-helpers";
 
 // Load environment variables
 import * as dotenv from "dotenv";
